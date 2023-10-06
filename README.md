@@ -11,10 +11,10 @@
                         width="150px">
                 </div>
                 <div class="info">
-                    <div class="label">Aayush Paigwar</div>
-                    <div class="desc">Project Maintainer</div>
+                    <div class="label">YOUR NAME</div>
+                    <div class="desc">Contributor</div>
                     <div class="github">
-                        <a class="" href="https://github.com/aayushpaigwar" target="_blank">
+                        <a class="" href="YOUR NAME" target="_blank">
                             <i class="fa-brands fa-github fa-2xl hero"></i>
                         </a>
                     </div>
