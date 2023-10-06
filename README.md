@@ -5,17 +5,16 @@
 - Just add that code with YOUR NAME and YOUR GITHUB PROFILE link to make a simple contribution.
 
 ```html
-<div class="contributors-cards people">
-            <div class="card">
+<div class="card">
                 <div class="img-sec">
                     <img src="https://cdn.pixabay.com/photo/2017/01/31/21/23/avatar-2027365_1280.png" height="150px"
                         width="150px">
                 </div>
                 <div class="info">
-                    <div class="label">YOUR NAME</div>
-                    <div class="desc">Contributor</div>
+                    <div class="label">Aayush Paigwar</div>
+                    <div class="desc">Project Maintainer</div>
                     <div class="github">
-                        <a class="" href="Github Link" target="_blank">
+                        <a class="" href="https://github.com/aayushpaigwar" target="_blank">
                             <i class="fa-brands fa-github fa-2xl hero"></i>
                         </a>
                     </div>
