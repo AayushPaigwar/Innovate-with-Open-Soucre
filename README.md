@@ -1,3 +1,27 @@
+<h1 align="center" style="border-bottom: none">
+    <b>
+        <a href="https://jarvis-ghrce.github.io/Innovate-with-Open-Soucre/">Innovate with Open Source</a><br>
+    </b>
+    ⭐️  An Open Source Event Organized by Jarvis GHRCE⭐️ <br>
+</h1>
+
+<h1 align="center" style="border-bottom: none">
+    <b>
+        <a href="https://jarvis-ghrce.github.io/Innovate-with-Open-Soucre/">⭐️ Website ⭐️</a><br>     
+</h1>
+ <img src="https://github.com/jarvis-ghrce/Innovate-with-Open-Soucre/blob/main/readme-assets/website.gif" width="1920" height="600" alt="Alt Text">
+
+---
+
+# Contributors for **Innovate with Open Source**🧑🏻‍💻
+<a href="https://github.com/jarvis-ghrce/Innovate-with-Open-Soucre/graphs/contributors
+">
+  <img src="https://contrib.rocks/image?repo=jarvis-ghrce/Innovate-with-Open-Soucre" />
+</a>
+
+---
+
+# Steps to Contribute
 ## Make a Simple Contribution :
 
 - Open the index.html file
@@ -55,3 +79,10 @@
 
 
 ## Happy Coding!🚀
+
+---
+
+<div align="center">
+  
+Made with ❤️ by [Aayush Paigwar](https://github.com/AayushPaigwar)
+</div>
