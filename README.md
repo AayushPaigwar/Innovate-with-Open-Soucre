@@ -9,7 +9,7 @@
     <b>
         <a href="https://jarvis-ghrce.github.io/Innovate-with-Open-Soucre/">⭐️ Website ⭐️</a><br>     
 </h1>
- <img src="https://github.com/jarvis-ghrce/Innovate-with-Open-Soucre/blob/main/readme-assets/website.gif" width="1920" height="600" alt="Alt Text">
+ <img src="https://github.com/jarvis-ghrce/Innovate-with-Open-Soucre/blob/main/readme-assets/website.gif" width="1920" height="550" alt="Alt Text">
 
 ---
 
