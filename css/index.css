@@ -13,7 +13,14 @@ html {
 
 i:hover {
     /* background-color: yellow; */
-    color: #007BFF;
+    color: #fff;
+}
+
+.navbar-list-item a{
+    text-decoration: none !important;
+}
+.navbar-list-item a:hover{
+    color: white;
 }
 
 .hero {
@@ -73,8 +80,8 @@ li {
 
 /* Navbar Section */
 .navbar {
-    width: 80%;
-    background-color: #212020;
+    width: 90%;
+    background-color: #FF6500;
     padding: 10px;
     display: flex;
     justify-content: space-between;
@@ -100,7 +107,9 @@ li {
     color: #fff;
 }
 
+
 .navbar-list-item {
+    text-decoration: none;
     font-size: 18px;
     padding: 10px 20px;
     cursor: pointer;
@@ -134,10 +143,10 @@ li {
     color: inherit;
 } */
 
-.navbar-list-item:hover a {
+/* .navbar-list-item:hover {
     font-weight: bold;
     /* Change link weight to bold because the orange was not visible enough */
-}
+/* } */
 
 /* Hamburger menu icon */
 .menu-toggle {
@@ -419,9 +428,9 @@ li {
 }
 
 .navbar-list-item:hover {
-    background-color: #0056b3;
+    background-color: black;
     /* Change background color on hover */
-    border-radius: 5px;
+    border-radius: 65px;
     transition: background-color 0.3s;
 }
 
@@ -538,7 +547,6 @@ a {
         /* Further limit card width */
     }
 }
-
 
 
 
