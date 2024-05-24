@@ -1,20 +1,22 @@
 footer {
     display: flex;
-    justify-content: space-evenly;
     padding: 20px;
     color: white;
     background: #212020;
     margin-top: auto;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
 }
 
 .additional {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
+    text-align: center;
 }
 
 footer .f-ele1 {
-    margin: 1.4rem 0;
     border-radius: 8px;
     color: white;
     width: fit-content;
@@ -35,13 +37,14 @@ footer .f-ele1 {
 }
 
 .f-ele2 ul {
-
+    display: flex;
+    flex-direction: row;
     font-weight: bold;
     color: white;
 
 }
 
-.f-ele2 ul span {
+.f-ele2 span {
     color: white;
 
     font-size: 23px;
@@ -109,6 +112,18 @@ footer .f-ele1 {
     line-height: 25px;
 }
 
+/* copyright info styles */
+.f-ele4 {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#clg, #pp {
+    padding: 5px; 
+}
+
 
 /* End footer */
 /* Footer media queries */
@@ -138,7 +153,6 @@ footer .f-ele1 {
 @media (max-width:1095px) {
     footer {
         flex-direction: column;
-        gap: 32px;
     }
 
     .f-ele3 {
@@ -147,3 +161,28 @@ footer .f-ele1 {
         text-align: center;
     }
 }
+
+/* prevent text from overflowing footer */
+@media (max-width: 611px) {
+    #clg, #pp {
+        font-size: 16px; 
+    }
+}
+
+@media (max-width: 501px) {
+    #clg, #pp {
+        font-size: 10px; 
+    }
+}
+
+@media (max-width: 329px) {
+    .f-ele2 ul li {
+        font-size: 13px;
+    }
+
+    .f-ele2 ul {
+        flex-direction: column;
+    }
+}
+
+
