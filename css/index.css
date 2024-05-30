@@ -13,7 +13,7 @@ html {
 
 i:hover {
     /* background-color: yellow; */
-    color: #fff;
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 10px rgb(104, 102, 102);
 }
 
 .navbar-list-item a{
