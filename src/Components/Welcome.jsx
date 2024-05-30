@@ -1,4 +1,4 @@
-import React, { useEffect, useRef } from 'react';
+import { useEffect, useRef } from 'react';
 import Typed from 'typed.js';
 import logo from '../assets/code.jpg';
 
@@ -17,20 +17,19 @@ export default function Welcome() {
       typed.destroy();
     };
   }, []);
- 
+
   return (
     <div className="container">
-      <div className="code-img d-flex">
+      <div className="code-img d-flex" style={{ paddingTop: '20px' }}>
         <img src={logo} alt='logo' />
       </div>
-      
-      <h1>
-      Welcome to 
+
       <div className="main-logo animated">
-        <span ref={el} />
+        <h1 style={{ color: 'black', fontSize: '40px' }}>
+          Welcome to{" "}
+          <span ref={el} />
+        </h1>
       </div>
-      </h1>
-     
-    </div>
+    </div >
   );
 }

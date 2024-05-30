@@ -1,5 +1,7 @@
 import Header from './Components/Header.jsx'
 import Welcome from './Components/Welcome.jsx'
+import Lists from './Components/Lists.jsx'
+import Footer from './Components/Footer.jsx'
 import './App.css'
 
 function App() {
@@ -8,6 +10,8 @@ function App() {
     <>
       <Header />
       <Welcome />
+      <Lists />
+      <Footer />
     </>
   )
 }

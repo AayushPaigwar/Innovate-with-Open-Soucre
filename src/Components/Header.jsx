@@ -3,7 +3,7 @@
 export default function Header() {
   return (
     <header className="navbar">
-      <span className="logo"> Innovate with Open Source</span>
+      <span className="logo"> Innovate With Open Source</span>
       <ul className="navbar-list">
         <li className="navbar-list-item"> Home </li>
         <li className="navbar-list-item"> About </li>
