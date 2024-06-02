@@ -2,14 +2,14 @@
 
 <h1 align="center" style="border-bottom: none">
     <b>
-        <a href="https://jarvis-ghrce.github.io/Innovate-with-Open-Soucre/">Innovate with Open Source</a><br>
+        <a href="https://innovate-with-open-soucre.vercel.app/">Innovate with Open Source</a><br>
     </b>
     ⭐️  An Open Source Event Organized by Jarvis GHRCE⭐️ <br>
 </h1>
 
 <h1 align="center" style="border-bottom: none">
     <b>
-        <a href="https://jarvis-ghrce.github.io/Innovate-with-Open-Soucre/">⭐️ Website ⭐️</a><br>     
+        <a href="https://innovate-with-open-soucre.vercel.app/">⭐️ Website ⭐️</a><br>     
 </h1>
  <img src="https://github.com/jarvis-ghrce/Innovate-with-Open-Soucre/blob/main/readme-assets/website.gif" width="1920" height="550" alt="Alt Text">
 
