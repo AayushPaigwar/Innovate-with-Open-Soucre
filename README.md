@@ -37,11 +37,11 @@
                         width="150px">
                 </div>
                 <div class="info">
-                    <div class="label">Akash Keote</div>
+                    <div class="label">YOUR NAME</div>
                     <div class="desc">Contributor</div>
                     <div class="github">
-                        <a class="" href="Akash Keote" target="_blank">
-                            <i class="https://github.com/AkashKeote"></i>
+                        <a class="" href="YOUR NAME" target="_blank">
+                            <i class="fa-brands fa-github fa-2xl hero"></i>
                         </a>
                     </div>
                 </div>
