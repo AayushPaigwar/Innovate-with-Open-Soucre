@@ -38,12 +38,12 @@ export default function Footer() {
             <div className="text-center center-block">
               <div className="social-media" id="contact">
                 <div className="media1">
-                  <a href="https://www.linkedin.com/company/jarvis-ghrce/mycompany/?viewAsMember=true" target="_blank" rel="noreferrer">
+                  <a href="https://www.linkedin.com/in/aayush-paigwar/" target="_blank" rel="noreferrer">
                     <img src={linkedin} height="42px" width="42px" alt="LinkedIn" />
                   </a>
                 </div>
                 <div className="media1">
-                  <a href="https://www.instagram.com/_jarvis.ai_/" target="_blank" rel="noreferrer">
+                  <a href="https://www.instagram.com/aayush___27/" target="_blank" rel="noreferrer">
                     <img src={instagram} height="48px" width="48px" alt="Instagram" />
                   </a>
                 </div>
@@ -54,7 +54,7 @@ export default function Footer() {
       </div>
       <div className="f-ele4">
         <div id="clg">Department of Artificial Intelligence, GHRCE</div>
-        <div id="pp">©2023 Jarvis</div>
+        <div id="pp">©2023-24 Jarvis Forum</div>
       </div>
     </footer>
   )
