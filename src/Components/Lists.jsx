@@ -176,7 +176,13 @@ const contributors = [
     role: "Contributor",
     github: "https://github.com/memickeymac03",
     image: "https://cdn.pixabay.com/photo/2017/01/31/21/23/avatar-2027365_1280.png"
-  }
+  },
+   {
+    name: "Akash Keote",
+    role: "Contributor",
+    github: "https://github.com/AkashKeote",
+    image: "https://cdn.pixabay.com/photo/2017/01/31/21/23/avatar-2027365_1280.png"
+  },
 ];
 
 export default function Lists() {
