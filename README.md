@@ -72,7 +72,40 @@
 6. Create a Pull Request (PR) from your forked repository to this main repository.
 7. Your PR will be reviewed and merged if everything is in order.
 
+```shell
 
+├── README.md
+├── dist
+│   ├── assets
+│   │   ├── code-C8KzPs09.jpg
+│   │   ├── index-D-xjSeyR.css
+│   │   ├── index-j0RrcO3W.js
+│   │   ├── instagram-CVFJBcOL.png
+│   │   └── linkedin-DYsRWqBD.png
+│   └── index.html
+├── index.html
+├── package-lock.json
+├── package.json
+├── readme-assets
+│   ├── jarvis-circle.png
+│   └── website.gif
+├── src
+│   ├── App.css
+│   ├── App.jsx
+│   ├── Components
+│   │   ├── Footer.jsx                    #Footer of the Website
+│   │   ├── Header.jsx                    #Header of the Website
+│   │   ├── Lists.jsx                   👋🏻#First Contributors Move here
+│   │   └── Welcome.jsx                   #Welcome Page of the Website
+│   ├── assets
+│   │   ├── code.jpg
+│   │   ├── github-mark.png
+│   │   ├── instagram.png
+│   │   ├── jarvis.png
+│   │   └── linkedin.png
+│   └── main.jsx
+└── vite.config.js
+```
 ## Contribution Guidelines
 
 - Ensure your code follows the project's coding standards and conventions.
