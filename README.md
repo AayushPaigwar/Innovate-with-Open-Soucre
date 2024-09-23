@@ -26,26 +26,18 @@
 # Steps to Contribute
 ## Make a Simple Contribution :
 
-- Open the index.html file
+- Open the `src/Components/List.jsx` file
 - You will see a snippet of code below.
-- Just add that code with YOUR NAME and YOUR GITHUB PROFILE link to make a simple contribution.
+- Just add that code with YOUR NAME and YOUR GITHUB PROFILE link to  the array to make a simple contribution.
 
-```html
-<div class="card">
-                <div class="img-sec">
-                    <img src="https://cdn.pixabay.com/photo/2017/01/31/21/23/avatar-2027365_1280.png" height="150px"
-                        width="150px">
-                </div>
-                <div class="info">
-                    <div class="label">YOUR NAME</div>
-                    <div class="desc">Contributor</div>
-                    <div class="github">
-                        <a class="" href="YOUR NAME" target="_blank">
-                            <i class="fa-brands fa-github fa-2xl hero"></i>
-                        </a>
-                    </div>
-                </div>
-            </div>
+```javascript
+{
+  name: "Your Name",
+  role: "Your Role (e.g., Contributor)",
+  github: "https://github.com/your-github-username",
+  image: "https://cdn.pixabay.com/photo/2017/01/31/21/23/avatar-2027365_1280.png" // or your image URL
+}
+
 ```
 #### And that's all ! 🚀
 
@@ -56,7 +48,7 @@
 1. Fork this repository to your GitHub account.
 2. Clone the forked repository to your local machine:
    ```bash
-   git clone https://github.com/jarvis-ghrce/Innovate-with-Open-Soucre
+   git clone https://github.com/your-username/Innovate-with-Open-Source.git
    ```
 3. Create a new branch for your contribution:
    ```bash
