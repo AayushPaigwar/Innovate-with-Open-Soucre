@@ -1,4 +1,4 @@
-<p align="center"><img src="https://avatars.githubusercontent.com/u/145497114?s=400&u=3670a413af29228bf1a235fdfce266381d210493&v=4" alt="Jarvis Logo" width="auto" height="200"></p>
+<p align="center"><img src="https://hacktoberfest.com/_next/static/media/logo-hacktoberfest-11--footer.cc639da3.svg" alt="Jarvis Logo" width="auto" height="200"></p>
 
 <h1 align="center" style="border-bottom: none">
     <b>
@@ -12,14 +12,6 @@
         <a href="https://innovate-with-open-soucre.vercel.app/">⭐️ Website ⭐️</a><br>     
 </h1>
  <img src="https://github.com/jarvis-ghrce/Innovate-with-Open-Soucre/blob/main/readme-assets/website.gif" width="1920" height="550" alt="Alt Text">
-
----
-
-# Contributors for **Innovate with Open Source**🧑🏻‍💻
-<a href="https://github.com/jarvis-ghrce/Innovate-with-Open-Soucre/graphs/contributors
-">
-  <img src="https://contrib.rocks/image?repo=jarvis-ghrce/Innovate-with-Open-Soucre" />
-</a>
 
 ---
 
@@ -103,6 +95,14 @@
 - Ensure your code follows the project's coding standards and conventions.
 - Make sure to document your code and add comments where necessary.
 - Test your changes to ensure they work as expected.
+
+---
+
+# Contributors for **Innovate with Open Source**🧑🏻‍💻
+<a href="https://github.com/jarvis-ghrce/Innovate-with-Open-Soucre/graphs/contributors
+">
+  <img src="https://contrib.rocks/image?repo=jarvis-ghrce/Innovate-with-Open-Soucre" />
+</a>
 
 
 ## Happy Coding!🚀
