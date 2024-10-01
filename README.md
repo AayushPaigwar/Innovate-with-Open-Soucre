@@ -29,7 +29,7 @@
 # Steps to Contribute
 ## Make a Simple Contribution :
 
-- Open the `src/Components/List.jsx` file
+- Open the `src/data/contributors.js` file
 - You will see a snippet of code below.
 - Just add that code with YOUR NAME and YOUR GITHUB PROFILE link to the array to make a simple contribution.
 
@@ -82,6 +82,8 @@
 │   ├── jarvis-circle.png
 │   └── website.gif
 ├── src
+│   ├── data
+│   │   └──contributors.js
 │   ├── App.css
 │   ├── App.jsx
 │   ├── Components
