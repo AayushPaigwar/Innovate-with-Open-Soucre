@@ -56,13 +56,13 @@
    git checkout -b contributor/your-name
    ```
 4. Setup Project locally. Use `npm` to install dependencies for `react`
-```bash
-npm install
-```
+    ```bash
+    npm install
+    ```
 5. Run project locally using `npm`
-```bash
-npm run dev
-```
+    ```bash
+    npm run dev
+    ```
 6. Make your changes in the Code Snippet.
 7. Commit your changes and push them to your forked repository:
    ```bash
