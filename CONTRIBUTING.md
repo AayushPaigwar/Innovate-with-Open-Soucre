@@ -9,7 +9,7 @@ Thank you for your interest in contributing! Follow the steps below to make your
 - **Vercel**
 - **Git**
 - **GitHub**
-- 
+  
 ---
 
 ## 📑 Steps to Contribute
