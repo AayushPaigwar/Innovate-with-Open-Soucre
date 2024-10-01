@@ -10,7 +10,7 @@ Thank you for your interest in contributing! Follow the steps below to make your
 
 To contribute, simply follow these steps:
 
-1. Open the `src/data/contributors.jsx` file.
+1. Open the `src/data/contributors.js` file.
 2. Add the following code snippet to the array in the file, making sure to replace the placeholders with **your name** and **GitHub profile link**.
 
 ```javascript
