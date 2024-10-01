@@ -7,7 +7,7 @@ export default function Welcome() {
 
   useEffect(() => {
     const typed = new Typed(el.current, {
-      strings: ['JARVIS'],
+      strings: ['Opensource'],
       typeSpeed: 150,
       backSpeed: 150,
       loop: true,
@@ -26,7 +26,7 @@ export default function Welcome() {
 
       <div className="main-logo animated">
         <h1 style={{ color: 'black', fontSize: '40px' }}>
-          Welcome to{" "}
+          Contribute To{" "}
           <span ref={el} />
         </h1>
       </div>
