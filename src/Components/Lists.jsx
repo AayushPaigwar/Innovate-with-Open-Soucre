@@ -2,7 +2,6 @@
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import contributors from '../data/contributors'
-// NOTE: Consider moving this to a JSON file.
 
 
 export default function Lists() {
