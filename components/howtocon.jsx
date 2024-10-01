@@ -1,4 +1,4 @@
-import { ArrowUpRight, Monitor, SquareTerminal, GitBranch } from "lucide-react"
+import { ArrowUpRight, GitBranch, SquareTerminal } from "lucide-react"
 
 const FeatureCard = ({ icon: Icon, title, description, children }) => (
     <div className="bg-white p-6 rounded-lg shadow-sm">

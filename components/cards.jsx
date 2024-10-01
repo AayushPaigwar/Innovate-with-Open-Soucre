@@ -1,6 +1,6 @@
 "use client";
 
-import { contributors } from "@/lib/date";
+import { contributors } from "@/lib/data";
 
 
 
