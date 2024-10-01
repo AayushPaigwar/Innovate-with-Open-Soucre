@@ -189,6 +189,12 @@ const contributors = [
     github: "https://github.com/msohailx",
     image: "https://cdn.pixabay.com/photo/2017/01/31/21/23/avatar-2027365_1280.png"
   },
+  {
+    name: "Pawan Bhayde",
+    role: "Contributor",
+    github: "https://github.com/pawanbhayde",
+    image: "https://cdn.pixabay.com/photo/2017/01/31/21/23/avatar-2027365_1280.png"
+  },
 
 
 
