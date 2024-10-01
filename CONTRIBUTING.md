@@ -10,7 +10,7 @@ Thank you for your interest in contributing! Follow the steps below to make your
 
 To contribute, simply follow these steps:
 
-1. Open the `src/Components/List.jsx` file.
+1. Open the `src/data/contributors.jsx` file.
 2. Add the following code snippet to the array in the file, making sure to replace the placeholders with **your name** and **GitHub profile link**.
 
 ```javascript
@@ -78,6 +78,8 @@ For your reference, here's the structure of the project:
 │   ├── jarvis-circle.png
 │   └── website.gif
 ├── src
+│   ├── data
+│   │    └── contributors.jsx  
 │   ├── App.css
 │   ├── App.jsx
 │   ├── Components
