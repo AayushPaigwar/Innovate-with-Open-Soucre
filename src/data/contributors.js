@@ -218,9 +218,14 @@ const contributors = [
       role:"Contributor",
       github:"https://github.com/T-Rahul-prabhu-38",
       image: "https://cdn.pixabay.com/photo/2017/01/31/21/23/avatar-2027365_1280.png"
-    }
+    },
 
-    //add your code here//
+    {
+      name: "Nikhilesh Mauje",
+      role: "Contributor",
+      github: "https://github.com/Nikhileshmauje",
+      image: "https://cdn.pixabay.com/photo/2017/01/31/21/23/avatar-2027365_1280.png" // or your image URL
+    },
   ];
 
 export default contributors;
