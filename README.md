@@ -47,9 +47,10 @@
 
 #### To make Contribution :
 1. Fork this repository to your GitHub account.
-2. Clone the forked repository to your local machine:
+2. Clone the forked repository to your local machine and navigate to project directory:
    ```bash
    git clone https://github.com/your-username/Innovate-with-Open-Source.git
+   cd Innovate-with-Open-Source
    ```
 3. Create a new branch for your contribution:
    ```bash
