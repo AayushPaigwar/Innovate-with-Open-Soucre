@@ -16,10 +16,7 @@
 ---
 
 # Tech Stack 🛠️
-- **React.js**
-- **Vite**
-- **HTML**
-- **CSS**
+- **Next.js**
 - **Vercel**
 - **Git**
 - **GitHub**
@@ -29,7 +26,7 @@
 # Steps to Contribute
 ## Make a Simple Contribution :
 
-- Open the `src/data/contributors.js` file
+- Open the `lib/data.js` file
 - You will see a snippet of code below.
 - Just add that code with YOUR NAME and YOUR GITHUB PROFILE link to the array to make a simple contribution.
 
@@ -65,40 +62,25 @@
 6. Create a Pull Request (PR) from your forked repository to this main repository.
 7. Your PR will be reviewed and merged if everything is in order.
 
-```shell
-├── README.md
-├── dist
-│   ├── assets
-│   │   ├── code-C8KzPs09.jpg
-│   │   ├── index-D-xjSeyR.css
-│   │   ├── index-j0RrcO3W.js
-│   │   ├── instagram-CVFJBcOL.png
-│   │   └── linkedin-DYsRWqBD.png
-│   └── index.html
-├── index.html
-├── package-lock.json
-├── package.json
-├── readme-assets
-│   ├── jarvis-circle.png
-│   └── website.gif
-├── src
-│   ├── data
-│   │   └──contributors.js
-│   ├── App.css
-│   ├── App.jsx
-│   ├── Components
-│   │   ├── Footer.jsx                    #Footer of the Website
-│   │   ├── Header.jsx                    #Header of the Website
-│   │   ├── Lists.jsx                     👋🏻#First Contributors Move here
-│   │   └── Welcome.jsx                   #Welcome Page of the Website
-│   ├── assets
-│   │   ├── code.jpg
-│   │   ├── github-mark.png
-│   │   ├── instagram.png
-│   │   ├── jarvis.png
-│   │   └── linkedin.png
-│   └── main.jsx
-└── vite.config.js
+```bash
+├── app
+│   ├── fonts
+│   ├── favicon.ico
+│   ├── globals.css
+│   ├── layout.js
+│   └── page.js
+├── components
+|   ├── ui
+|   |    └── button.jsx
+|   ├── cards.jsx                        #Contributors card ui
+|   ├── footer.jsx                       #Footer of the Website
+|   ├── hero.jsx                         #Welcome Page of the Website
+|   ├── howtocon.jsx                     #Contribution Steps
+|   ├── Navbar.jsx                       #Header of the Website
+|   └── section.jsx
+└── lib
+    ├── data.js                          #First Contributors Move here 👋🏻
+    └──utils.js
 ```
 
 ## Contribution Guidelines
