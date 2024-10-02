@@ -1,14 +1,5 @@
 // eslint-disable-next-line no-unused-vars
 const contributors = [
-
-  {
-    name: "ketan kumar",
-    role: "Contributor",
-    github: "https://github.com/Ketanop321",
-    image: "https://cdn.pixabay.com/photo/2017/01/31/21/23/avatar-2027365_1280.png" // or your image URL
-  },
-  
-  
   
   {
     name: "Aayush Paigwar🧑🏻‍💻",
@@ -254,6 +245,14 @@ const contributors = [
     github: "https://github.com/vijayalaxmi777",
     image: "https://cdn.pixabay.com/photo/2017/01/31/21/23/avatar-2027365_1280.png" // or your image URL
   },
+    {
+    name: "ketan kumar",
+    role: "Contributor",
+    github: "https://github.com/Ketanop321",
+    image: "https://cdn.pixabay.com/photo/2017/01/31/21/23/avatar-2027365_1280.png" // or your image URL
+  },
+  
+
 ];
 
 export default contributors;
