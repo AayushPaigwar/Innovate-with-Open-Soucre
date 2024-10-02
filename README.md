@@ -125,9 +125,10 @@
 ---
 
 # Contributors for **Innovate with Open Source**🧑🏻‍💻
-<a href="https://github.com/jarvis-ghrce/Innovate-with-Open-Soucre/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=jarvis-ghrce/Innovate-with-Open-Soucre" />
+<a href="https://github.com/aayushpaigwar/Innovate-with-Open-Soucre/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=aayushpaigwar/Innovate-with-Open-Soucre" />
 </a>
+
 
 ---
 
