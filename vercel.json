@@ -1,0 +1,38 @@
+{
+    "projects": {
+      "react-vite-project": {
+        "source": "v0",
+        "buildCommand": "npm run build",
+        "outputDirectory": "dist",
+        "framework": "vite",
+        "alias": "react-vite-project"
+      },
+      "nextjs-project": {
+        "source": "main",
+        "buildCommand": "npm run build",
+        "outputDirectory": ".next",
+        "framework": "nextjs",
+        "alias": "nextjs-project"
+      }
+    },
+    "builds": [
+      {
+        "src": "package.json",
+        "use": "@vercel/static-build",
+        "config": {
+          "distDir": "dist"
+        }
+      }
+    ],
+    "routes": [
+      {
+        "src": "/(.*)",
+        "dest": "/"
+      }
+    ],
+    "github": {
+      "enabled": true,
+      "autoJobCancelation": true
+    }
+  }
+  
