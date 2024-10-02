@@ -41,19 +41,27 @@ And that's it! You've made your first contribution! 🚀
    ```bash
    git checkout -b contributor/your-name
    ```
+   
+4. **Setup Project locally** using `npm` package manager to install dependencies for `react`
+    ```bash
+    npm install
+    ```
+5. **Run project locally** to test your contribution in local/dev environment
+    ```bash
+    npm run dev
+    ```
+6. **Perform changes** by applying above mentioned Code Snippet.
 
-4. **Make your changes** by adding your details in the code snippet mentioned above.
-
-5. **Commit your changes** and push them to your forked repository:
+7. **Commit your changes** and push them to your forked repository:
    ```bash
    git add .
    git commit -m "Add your meaningful commit message here"
    git push origin contributor/your-name
    ```
 
-6. **Create a Pull Request (PR)** from your forked repository to this main repository.
+8. **Create a Pull Request (PR)** from your forked repository to this main repository.
 
-7. Your PR will be reviewed and merged if everything is in order. 🎉
+9. Your PR will be reviewed and merged if everything is in order. 🎉
 
 ---
 
