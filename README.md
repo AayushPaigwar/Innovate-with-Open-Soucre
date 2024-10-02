@@ -10,7 +10,7 @@
 
 <h1 align="center" style="border-bottom: none">
     <b>
-        <a href="https://innovate-with-open-soucre.vercel.app/">⭐️ Website ⭐️</a><br>     
+        <a href="https://innovate-with-opensource.netlify.app/">⭐️ Website ⭐️</a><br>     
 </h1>
 <img src="https://github.com/jarvis-ghrce/Innovate-with-Open-Soucre/blob/main/readme-assets/website.gif" width="1920" height="550" alt="Alt Text">
 
