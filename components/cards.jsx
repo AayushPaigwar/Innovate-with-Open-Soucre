@@ -2,11 +2,9 @@
 
 import { contributors } from "@/lib/data";
 
-
-
 const FeatureCard = ({ name, role, image, github }) => (
     <div
-        className="bg-white p-6 h-56 border border-dashed rounded-lg shadow-sm relative overflow-hidden"
+        className="bg-white p-6 h-56 border border-dashed rounded-lg shadow-sm relative overflow-hidden transition-transform transform hover:scale-105 hover:shadow-lg"
         style={{ backgroundImage: "url('/cardbg.png')", backgroundSize: "cover", backgroundPosition: "center" }}
     >
         <div className="absolute inset-0 bg-grid-gray-100 opacity-50"></div>
