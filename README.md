@@ -19,13 +19,19 @@
     <a href="https://github.com/AayushPaigwar/Innovate-with-Open-Soucre/stargazers">
         <img src="https://img.shields.io/github/stars/AayushPaigwar/Innovate-with-Open-Soucre?style=social" alt="Stars">
     </a>
+    <a href="https://github.com/AayushPaigwar/Innovate-with-Open-Soucre/pulls">
+        <img src="https://img.shields.io/badge/Total%20PRs-91-brightgreen" alt="Total Pull Requests">
+    </a>
     <a href="https://github.com/AayushPaigwar/Innovate-with-Open-Soucre/graphs/contributors">
         <img src="https://img.shields.io/github/contributors/AayushPaigwar/Innovate-with-Open-Soucre" alt="Contributors">
     </a>
     <a href="https://github.com/AayushPaigwar/Innovate-with-Open-Soucre">
         <img src="https://img.shields.io/github/repo-size/AayushPaigwar/Innovate-with-Open-Soucre" alt="Repo Size">
     </a>
-    <a href="https://github.com/AayushPaigwar/Innovate-with-Open-Soucre/issues">
+</p>
+
+<p align="center">
+ <a href="https://github.com/AayushPaigwar/Innovate-with-Open-Soucre/issues">
         <img src="https://img.shields.io/github/issues/AayushPaigwar/Innovate-with-Open-Soucre" alt="Issues">
     </a>
     <a href="https://github.com/AayushPaigwar/Innovate-with-Open-Soucre/pulls">
@@ -34,7 +40,7 @@
      <a href="https://github.com/AayushPaigwar/Innovate-with-Open-Soucre/network/members">
         <img src="https://img.shields.io/github/forks/AayushPaigwar/Innovate-with-Open-Soucre" alt="Forks">
     </a>
-</p>
+    </p>
 
 ---
 
