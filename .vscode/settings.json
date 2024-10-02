@@ -1,0 +1,6 @@
+{
+	"github.copilot.chat.experimental.generateTests.codeLens": true,
+	"github.copilot.chat.experimental.inlineChatCompletionTrigger.enabled": true,
+	"github.copilot.chat.experimental.startDebugging.enabled": true,
+	"github.copilot.chat.experimental.temporalContext.enabled": true
+}
