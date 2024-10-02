@@ -12,8 +12,8 @@ const FeatureCard = ({ name, role, image, github }) => (
         <div className="absolute inset-0 bg-grid-gray-100 opacity-50"></div>
         <div className="relative flex flex-col justify-between h-full z-10">
             <div className="flex justify-between items-start mb-4">
-                <div className="h-15 w-15">
-                    <img src={image} alt={name} className="h-15 w-15 rounded-full" />
+                <div className="h-10 w-10">
+                    <img src={image} alt={name} className="h-10 w-10 rounded-full" />
                 </div>
             </div>
             <div className="">
