@@ -33,11 +33,13 @@
 - Just add that code with YOUR NAME and YOUR GITHUB PROFILE link to the array to make a simple contribution.
 
 ```javascript
+//Male:- https://avatar.iran.liara.run/public/job/operator/male
+//Female:- https://avatar.iran.liara.run/public/job/operator/female
 {
   name: "Your Name",
   role: "Your Role (e.g., Contributor)",
   github: "https://github.com/your-github-username",
-  image: "https://cdn.pixabay.com/photo/2017/01/31/21/23/avatar-2027365_1280.png" // or your image URL
+  image: "https://avatar.iran.liara.run/public/job/operator/male" // or your image URL
 }
 ```
 #### And that's all ! 🚀
