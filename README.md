@@ -2,7 +2,7 @@
 
 <h1 align="center" style="border-bottom: none">
     <b>
-        <a href="https://hacktoberfest-v1.vercel.app/">V0 Website Link (Old version)</a><br>
+        <a href="https://innovate-with-open-soucre-v0.vercel.app/">V0 Website Link (Old version)</a><br>
     </b>
     ⭐️  Join the Open Source Revolution with Our Community ⭐️ <br>
 </h1>
