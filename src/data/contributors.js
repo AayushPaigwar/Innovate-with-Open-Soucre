@@ -245,14 +245,39 @@ const contributors = [
     github: "https://github.com/vijayalaxmi777",
     image: "https://cdn.pixabay.com/photo/2017/01/31/21/23/avatar-2027365_1280.png" // or your image URL
   },
+  
+   {
+      name: "Nikhilesh Mauje",
+      role: "Contributor",
+      github: "https://github.com/Nikhileshmauje",
+      image: "https://cdn.pixabay.com/photo/2017/01/31/21/23/avatar-2027365_1280.png" // or your image URL
+    },
+    {
+      name: "Gamerking177",
+      role: "Contributor",
+      github: "https://github.com/Gamerking177",
+      image: "https://cdn.pixabay.com/photo/2017/01/31/21/23/avatar-2027365_1280.png" // or your image URL
+    },
+    {
+      name: "Vijayalaxmi Wakode",
+      role: "Contributor",
+      github: "https://github.com/vijayalaxmi777",
+      image: "https://cdn.pixabay.com/photo/2017/01/31/21/23/avatar-2027365_1280.png" // or your image URL
+    },
+    {
+      name: "Soham Das",
+      role: "Contributor",
+      github: "https://github.com/theDevSoham",
+      image: "https://cdn.pixabay.com/photo/2017/01/31/21/23/avatar-2027365_1280.png" // or your image URL
+    },
+  
     {
     name: "ketan kumar",
     role: "Contributor",
     github: "https://github.com/Ketanop321",
     image: "https://cdn.pixabay.com/photo/2017/01/31/21/23/avatar-2027365_1280.png" // or your image URL
   },
-  
-
 ];
+
 
 export default contributors;
