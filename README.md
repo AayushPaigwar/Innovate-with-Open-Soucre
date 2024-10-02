@@ -114,10 +114,6 @@ To create a greater sense of inclusion and community for contributors, please ad
 For detailed guidelines, please refer to the [Code of Conduct document](https://github.com/AayushPaigwar/Innovate-with-Open-Soucre/blob/main/CODE_OF_CONDUCT.md).
 
 ## Happy Coding!🚀
-
-![Designer (5)](https://github.com/user-attachments/assets/e6f9a09d-e4e9-4875-a3fe-d9c12c8e9962)
-
-
 ---
 
 <div align="center">
