@@ -2,6 +2,8 @@
 
 import { contributors } from "@/lib/data";
 
+
+
 const FeatureCard = ({ name, role, image, github }) => (
     <div
         className="bg-white p-6 h-56 border border-dashed rounded-lg shadow-sm relative overflow-hidden"
@@ -30,7 +32,7 @@ export default function Cards() {
     return (
         <section id="contributors" className="py-16 px-4 sm:px-6 lg:px-8 bg-gray-50">
             <div className="max-w-7xl mx-auto">
-                <h2 className="text-3xl font-bold text-center mb-4">Contributors</h2>
+                <h2 className="text-3xl font-bold text-center mb-8">Contributors</h2>
                 <p className="text-center text-lg text-gray-500 mb-8">
                     Total Contributors: {contributors.length}
                 </p>

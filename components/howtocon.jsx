@@ -1,7 +1,7 @@
-import { ArrowUpRight, Monitor, SquareTerminal, GitBranch } from "lucide-react"
+import { ArrowUpRight, Monitor, SquareTerminal, GitBranch } from "lucide-react";
 
 const FeatureCard = ({ icon: Icon, title, description, children }) => (
-    <div className="bg-white p-6 rounded-lg shadow-sm">
+    <div className="bg-white p-6 rounded-lg shadow-sm min-w-[300px]">
         <div className="flex items-center mb-4">
             <Icon className="w-6 h-6 mr-2 text-gray-600" />
             <h3 className="text-lg font-semibold">{title}</h3>
@@ -10,7 +10,7 @@ const FeatureCard = ({ icon: Icon, title, description, children }) => (
         <p className="text-gray-600 mb-4">{description}</p>
         {children}
     </div>
-)
+);
 
 const Terminal = () => (
     <div className="bg-gray-900 text-white p-4 rounded-lg font-mono text-sm">
@@ -26,17 +26,17 @@ const Terminal = () => (
         <p>{`image: "https://cdn.pixabay.com/photo/2017/01/31/21/23/avatar-2027365_1280.png" // or your image URL`}</p>
         <p>{`}`}</p>
     </div>
-)
+);
 
 const VersionHistory = () => (
     <div className="space-y-2">
         {[
-            { number: 1, value: "Fork the Repository: Create your own copy of the repo.", },
-            { number: 2, value: "Clone Your Fork: Download your forked repo to your local machine", },
-            { number: 3, value: "Make Changes: Implement your updates or fixes.", },
-            { number: 4, value: "Commit Your Changes: Save your changes with a descriptive commit message.", },
-            { number: 5, value: "Push to GitHub: Upload your branch to your GitHub repository.", },
-            { number: 6, value: "Create a Pull Request: Submit your changes for review in the original repository.", },
+            { number: 1, value: "Fork the Repository: Create your own copy of the repo." },
+            { number: 2, value: "Clone Your Fork: Download your forked repo to your local machine" },
+            { number: 3, value: "Make Changes: Implement your updates or fixes." },
+            { number: 4, value: "Commit Your Changes: Save your changes with a descriptive commit message." },
+            { number: 5, value: "Push to GitHub: Upload your branch to your GitHub repository." },
+            { number: 6, value: "Create a Pull Request: Submit your changes for review in the original repository." },
         ].map((version) => (
             <div key={version.number} className="bg-gray-800 text-white p-2 rounded-lg text-sm">
                 <div className="flex items-center mb-1">
@@ -48,13 +48,13 @@ const VersionHistory = () => (
             </div>
         ))}
     </div>
-)
+);
 
 export default function HowToContribute() {
     return (
-        <section id="hottocon" className="py-16 px-4 sm:px-6 lg:px-8 bg-gray-50">
+        <section id="howtocon" className="py-16 px-4 sm:px-6 lg:px-8 bg-gray-50">
             <div className="max-w-7xl mx-auto">
-                <div className="grid md:grid-cols-2 gap-8">
+                <div className="flex flex-col gap-8  md:grid md:grid-cols-2">
                     <FeatureCard
                         icon={SquareTerminal}
                         title="Contributor Snippet"
@@ -72,5 +72,5 @@ export default function HowToContribute() {
                 </div>
             </div>
         </section>
-    )
+    );
 }
