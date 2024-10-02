@@ -1,7 +1,0 @@
-{
-  "framework": "vite",
-  "github": {
-    "enabled": true,
-    "autoJobCancelation": true
-  }
-}
