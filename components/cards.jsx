@@ -33,6 +33,9 @@ export default function Cards() {
         <section id="contributors" className="py-16 px-4 sm:px-6 lg:px-8 bg-gray-50">
             <div className="max-w-7xl mx-auto">
                 <h2 className="text-3xl font-bold text-center mb-8">Contributors</h2>
+                <p className="text-center text-lg text-gray-500 mb-8">
+                    Total Contributors: {contributors.length}
+                </p>
                 <div className="grid md:grid-cols-3 gap-8">
                     {contributors.map((contributor) => (
                         <FeatureCard
