@@ -22,7 +22,7 @@ export default function HeroSection() {
                 <div className="mt-5 max-w-md mx-auto sm:flex sm:justify-center md:mt-8">
                     <div className="rounded-md shadow">
                         <Link href="https://hacktoberfest.com/">
-                            <Button className=" bg-black text-white hover:bg-gray-800">Hacktoberfest</Button>
+                            <Button className="w-full bg-black text-white hover:bg-gray-800">Hacktoberfest</Button>
                         </Link>
                     </div>
                     <div className="mt-3 sm:mt-0 sm:ml-3">
