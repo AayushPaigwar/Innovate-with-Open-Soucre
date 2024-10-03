@@ -11,7 +11,7 @@ const FeatureCard = ({ name, role, image, github }) => (
         <div className="relative flex flex-col justify-between h-full z-10">
             <div className="flex justify-between items-start mb-4">
                 <div className="h-10 w-10">
-                    <img src={image} alt={name} className="h-10 w-10 rounded-full" />
+                    <img src={image} alt={name} className="h-10 w-10 rounded-full" onError={(e) => { e.target.src = "https://avatar.iran.liara.run/public/24"; }} />
                 </div>
             </div>
             <div className="">

@@ -68,7 +68,7 @@
   name: "Your Name",
   role: "Your Role (e.g., Contributor)",
   github: "https://github.com/your-github-username",
-  image: "https://avatar.iran.liara.run/public/job/operator/male" // or your image URL
+  image: "https://github.com/your-github-username.png" // or your image URL
 }
 ```
 #### And that's all ! 🚀
