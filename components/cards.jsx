@@ -2,18 +2,16 @@
 
 import { contributors } from "@/lib/data";
 
-
-
 const FeatureCard = ({ name, role, image, github }) => (
     <div
-        className="bg-white p-6 h-56 border border-dashed rounded-lg shadow-sm relative overflow-hidden"
+        className="bg-white p-6 h-56 border border-dashed rounded-lg shadow-sm relative overflow-hidden transition-transform transform hover:scale-105 hover:shadow-lg"
         style={{ backgroundImage: "url('/cardbg.png')", backgroundSize: "cover", backgroundPosition: "center" }}
     >
         <div className="absolute inset-0 bg-grid-gray-100 opacity-50"></div>
         <div className="relative flex flex-col justify-between h-full z-10">
             <div className="flex justify-between items-start mb-4">
                 <div className="h-10 w-10">
-                    <img src={image} alt={name} className="h-10 w-10 rounded-full" />
+                    <img src={image} alt={name} className="h-10 w-10 rounded-full" onError={(e) => { e.target.src = "https://avatar.iran.liara.run/public/24"; }} />
                 </div>
             </div>
             <div className="">
