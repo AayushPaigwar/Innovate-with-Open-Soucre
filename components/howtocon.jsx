@@ -1,4 +1,4 @@
-import { ArrowUpRight, Monitor, SquareTerminal, GitBranch } from "lucide-react";
+import { ArrowUpRight, SquareTerminal, GitBranch } from "lucide-react";
 
 const FeatureCard = ({ icon: Icon, title, description, children }) => (
   <div className="bg-white p-6 rounded-lg shadow-sm min-w-[300px]">
@@ -75,7 +75,7 @@ const VersionHistory = () => (
 
 export default function HowToContribute() {
   return (
-    <section id="howtocon" className="py-16 px-4 sm:px-6 lg:px-8 bg-gray-50">
+    <section id="howToContribute" className="py-16 px-4 sm:px-6 lg:px-8 bg-gray-50">
       <div className="max-w-7xl mx-auto">
         <div className="flex flex-col gap-8  md:grid md:grid-cols-2">
           <FeatureCard

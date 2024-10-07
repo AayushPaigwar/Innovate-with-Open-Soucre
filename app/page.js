@@ -4,7 +4,6 @@ import HeroSection from "@/components/hero";
 import HowToContribute from "@/components/howtocon";
 import Navbar from "@/components/Navbar";
 import SecretStats from "@/components/section";
-import Image from "next/image";
 
 export default function Home() {
   return (
