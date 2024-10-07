@@ -40,6 +40,7 @@ export default function Footer() {
                     </div>
                     <FooterColumn title="Repository Maintainers" links={footerLinks.contact} />
                 </div>
+                <Link href="https://www.linkedin.com/in/aayush-paigwar" className="text-gray-400 hover:text-white font-bold sm:no-underline underline">Help Wanted?</Link>
                 <div className="mt-12 flex flex-col md:flex-row justify-between items-center">
                     <div className="flex space-x-6 mb-4 md:mb-0">
                         <Link href="https://www.linkedin.com/in/aayush-paigwar/" className="text-gray-400 hover:text-white">
