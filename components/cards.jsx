@@ -1,6 +1,10 @@
 "use client";
 
+import { useState } from "react";
 import { contributors } from "@/lib/data";
+import { Button } from "@/components/ui/button"; // Assuming you have a Button component from Shadcn
+
+const ITEMS_PER_PAGE = 9; // Display 3 cards per page
 
 const FeatureCard = ({ name, role, image, github }) => (
   <div
@@ -43,18 +47,38 @@ const FeatureCard = ({ name, role, image, github }) => (
 );
 
 export default function Cards() {
+  const [currentPage, setCurrentPage] = useState(1);
+
+  // Pagination logic
+  const totalItems = contributors.length;
+  const totalPages = Math.ceil(totalItems / ITEMS_PER_PAGE);
+  const startIndex = (currentPage - 1) * ITEMS_PER_PAGE;
+  const endIndex = startIndex + ITEMS_PER_PAGE;
+  const currentContributors = contributors.slice(startIndex, endIndex);
+
+  const handleNextPage = () => {
+    if (currentPage < totalPages) {
+      setCurrentPage(currentPage + 1);
+    }
+  };
+
+  const handlePreviousPage = () => {
+    if (currentPage > 1) {
+      setCurrentPage(currentPage - 1);
+    }
+  };
+
   return (
-    <section
-      id="contributors"
-      className="py-16 px-4 sm:px-6 lg:px-8 bg-gray-50"
-    >
+    <section id="contributors" className="py-16 px-4 sm:px-6 lg:px-8 bg-gray-50">
       <div className="max-w-7xl mx-auto">
         <h2 className="text-3xl font-bold text-center mb-8">Contributors</h2>
         <p className="text-center text-lg text-gray-500 mb-8">
-          Total Contributors: {contributors.length}
+          Total Contributors: {totalItems}
         </p>
+
+        {/* Display the current page of contributors */}
         <div className="grid md:grid-cols-3 gap-8">
-          {contributors.map((contributor) => (
+          {currentContributors.map((contributor) => (
             <FeatureCard
               key={contributor.name}
               name={contributor.name}
@@ -63,6 +87,27 @@ export default function Cards() {
               github={contributor.github}
             />
           ))}
+        </div>
+
+        {/* Pagination controls */}
+        <div className="flex justify-center items-center mt-8 space-x-4">
+          <Button
+            onClick={handlePreviousPage}
+            disabled={currentPage === 1}
+            variant="outline"
+          >
+            Previous
+          </Button>
+          <span className="text-lg">
+            Page {currentPage} of {totalPages}
+          </span>
+          <Button
+            onClick={handleNextPage}
+            disabled={currentPage === totalPages}
+            variant="outline"
+          >
+            Next
+          </Button>
         </div>
       </div>
     </section>
