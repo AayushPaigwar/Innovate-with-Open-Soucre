@@ -40,7 +40,7 @@ export default function Navbar() {
 
             </div>
             <div className="hidden md:flex items-center space-x-4">
-                <Link href="#hottocon" className=" text-gray-600 hover:text-gray-900">
+                <Link href="#howToContribute" className=" text-gray-600 hover:text-gray-900">
                     How To Contribute
                 </Link>
                 <Link href="https://github.com/AayushPaigwar/Innovate-with-Open-Soucre" className=" text-gray-600 hover:text-gray-900">

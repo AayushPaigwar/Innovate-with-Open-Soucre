@@ -1,5 +1,5 @@
 import Link from "next/link"
-import { Linkedin, Github, Twitter } from "lucide-react"
+import { Linkedin, Github } from "lucide-react"
 import { FaXTwitter } from "react-icons/fa6";
 
 const FooterColumn = ({ title, links }) => (
