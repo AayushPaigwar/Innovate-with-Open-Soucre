@@ -97,3 +97,13 @@ html {
   10% { opacity: 0.3; }
   20% { opacity: 0; }
 }
+
+.grid-container {
+  display: none;
+}
+
+@media (min-width: 640px) {
+  .grid-container {
+    display: block;
+  }
+}

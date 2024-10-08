@@ -7,7 +7,7 @@ import Link from "next/link";
 const BackgroundSquare = ({ delay = 0 }) => {
   return (
     <div 
-      className="w-36 h-36 border border-gray-300 bg-gray-100 rounded-md relative overflow-hidden"
+      className="w-24 h-24 sm:w-28 sm:h-28 lg:w-36 lg:h-36 border border-gray-300 bg-gray-100 rounded-md relative overflow-hidden shrink-0"
       style={{ 
         opacity: 1,
       }}
@@ -41,29 +41,31 @@ const BackgroundGrid = () => {
   ];
 
   return (
-    <div className="absolute inset-0 overflow-hidden pointer-events-none">
-      {/* Left Grid */}
-      <div className="absolute left-0 top-1/2 -translate-y-1/2">
-        {leftPattern.map((row, rowIndex) => (
-          <div key={`left-row-${rowIndex}`} className="flex gap-2 mb-3 ml-8">
-            {row.map((show, colIndex) => (
-              show ? <BackgroundSquare key={`left-${rowIndex}-${colIndex}`} delay={Math.random() * 2000} /> : null
-            ))}
-          </div>
-        ))}
-      </div>
+    <>
+      <div className="absolute inset-0 overflow-hidden pointer-events-none">
+        {/* Left Grid */}
+        <div className="grid-container absolute left-0 top-1/2 -translate-y-1/2 -translate-x-1/2 xl:-translate-x-1/3 2xl:-translate-x-1/4">
+          {leftPattern.map((row, rowIndex) => (
+            <div key={`left-row-${rowIndex}`} className="flex gap-2 mb-2 ml-8">
+              {row.map((show, colIndex) => (
+                show ? <BackgroundSquare key={`left-${rowIndex}-${colIndex}`} delay={Math.random() * 2000} /> : null
+              ))}
+            </div>
+          ))}
+        </div>
 
-      {/* Right Grid */}
-      <div className="absolute right-0 top-1/2 -translate-y-1/2">
-        {rightPattern.map((row, rowIndex) => (
-          <div key={`right-row-${rowIndex}`} className="flex gap-2 mb-3 mr-8 justify-end">
-            {row.map((show, colIndex) => (
-              show ? <BackgroundSquare key={`right-${rowIndex}-${colIndex}`} delay={Math.random() * 2000} /> : null
-            ))}
-          </div>
-        ))}
+        {/* Right Grid */}
+        <div className="grid-container absolute right-0 top-1/2 -translate-y-1/2 translate-x-1/2 xl:translate-x-1/3 2xl:translate-x-1/4">
+          {rightPattern.map((row, rowIndex) => (
+            <div key={`right-row-${rowIndex}`} className="flex gap-2 mb-2 mr-8 justify-end">
+              {row.map((show, colIndex) => (
+                show ? <BackgroundSquare key={`right-${rowIndex}-${colIndex}`} delay={Math.random() * 2000} /> : null
+              ))}
+            </div>
+          ))}
+        </div>
       </div>
-    </div>
+    </>
   );
 };
 
@@ -81,7 +83,8 @@ export default function HeroSection() {
           </span>
         </h1>
         <p className="mt-3 max-w-md mx-auto text-base text-gray-500 sm:text-lg md:mt-5 md:text-xl md:max-w-3xl">
-          Kickstart your open-source journey with beginner-friendly repository <br /> designed for first-time contributors this Hacktoberfest!
+          Kickstart your open-source journey with beginner-friendly repository <br /> 
+          designed for first-time contributors this Hacktoberfest!
         </p>
         <div className="mt-5 max-w-md mx-auto sm:flex sm:justify-center md:mt-8">
           <div className="rounded-md shadow">
