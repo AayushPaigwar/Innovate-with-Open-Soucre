@@ -91,3 +91,19 @@ html {
   -ms-overflow-style: none;  /* Internet Explorer 10+ */
   scrollbar-width: none;  /* Firefox */
 }
+
+@keyframes greenBlink {
+  0%, 100% { opacity: 0; }
+  10% { opacity: 0.3; }
+  20% { opacity: 0; }
+}
+
+.grid-container {
+  display: none;
+}
+
+@media (min-width: 640px) {
+  .grid-container {
+    display: block;
+  }
+}
