@@ -2,7 +2,6 @@
     "name": "innovate-with-open-soucre",
     "version": "0.1.0",
     "private": true,
-    
     "scripts": {
         "dev": "next dev",
         "build": "next build",
@@ -10,6 +9,7 @@
         "lint": "next lint"
     },
     "dependencies": {
+        "@radix-ui/react-avatar": "^1.1.1",
         "@radix-ui/react-icons": "^1.3.0",
         "@radix-ui/react-slot": "^1.1.0",
         "autoprefixer": "^10.4.20",

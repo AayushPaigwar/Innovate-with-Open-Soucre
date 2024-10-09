@@ -20,11 +20,21 @@ const Terminal = () => (
       <div className="w-3 h-3 rounded-full bg-green-500"></div>
     </div>
     <div className="overflow-x-scroll md:overflow-x-auto hide-scrollbar">
+      <p>{`// Contributor`}</p>
       <p>{`{`}</p>
       <p>{`name: "Your Name",`}</p>
       <p>{`role: "Your Role (e.g., Contributor)",`}</p>
       <p>{`github: "https://github.com/your-github-username",`}</p>
       <p>{`image: "https://cdn.pixabay.com/photo/2017/01/31/21/23/avatar-2027365_1280.png" // or your image URL`}</p>
+      <p>{`}`}</p>
+      <p className="mt-4">{`// Blogs`}</p>
+      <p>{`{`}</p>
+      <p>{`title: "Blog Title",`}</p>
+      <p>{`link: "blog_url"`}</p>
+      <p>{`author: "John Doe",`}</p>
+      <p>{`date: "Sep 19, 2024",`}</p>
+      <p>{`image: "image_url"`}</p>
+      <p>{`avater: "avater_url"`}</p>
       <p>{`}`}</p>
     </div>
   </div>

@@ -1,3 +1,4 @@
+import Blogs from "@/components/blogs";
 import Cards from "@/components/cards";
 import Footer from "@/components/footer";
 import HeroSection from "@/components/hero";
@@ -12,6 +13,7 @@ export default function Home() {
       <HeroSection />
       <SecretStats />
       <HowToContribute />
+      <Blogs />
       <Cards />
       <Footer />
     </>
