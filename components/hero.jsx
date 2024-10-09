@@ -79,7 +79,7 @@ export default function HeroSection() {
           <br />
           <span className="relative">
             Open Source
-            <span className="absolute inset-x-0 bottom-0 h-3 bg-yellow-300 -z-10"></span>
+            <span className="absolute inset-x-0 bottom-0 h-3 bg-green-400 -z-10"></span>
           </span>
         </h1>
         <p className="mt-3 max-w-md mx-auto text-base text-gray-500 sm:text-lg md:mt-5 md:text-xl md:max-w-3xl">
