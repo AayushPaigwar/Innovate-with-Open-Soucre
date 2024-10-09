@@ -4,6 +4,7 @@ import { useState } from "react";
 import { contributors } from "@/lib/data";
 import { Button } from "@/components/ui/button"; // Assuming you have a Button component from Shadcn
 
+
 const ITEMS_PER_PAGE = 9; // Display 3 cards per page
 
 const FeatureCard = ({ name, role, image, github }) => (
@@ -47,6 +48,7 @@ const FeatureCard = ({ name, role, image, github }) => (
 );
 
 export default function Cards() {
+
   const [currentPage, setCurrentPage] = useState(1);
 
   // Pagination logic
@@ -112,4 +114,5 @@ export default function Cards() {
       </div>
     </section>
   );
+
 }
