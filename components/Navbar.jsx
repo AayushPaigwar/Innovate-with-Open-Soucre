@@ -57,6 +57,12 @@ export default function Navbar() {
         >
           Contributors
         </Link>
+        <Link
+          href="#blogs"
+          className=" text-gray-600 hover:text-gray-900"
+        >
+          Add Blog
+        </Link>
       </div>
       <div className="flex items-center space-x-4">
         <div className="flex items-center text-sm text-gray-600">

@@ -7,7 +7,7 @@ import Link from "next/link"
 export default function Blogs() {
 
     return (
-        <div className="py-16 px-4 sm:px-6 lg:px-8 bg-gray-50">
+        <div id="blogs" className="py-16 px-4 sm:px-6 lg:px-8 bg-gray-50">
             <h2 className="block text-3xl mb-2 font-semibold text-center text-gray-900 sm:text-4xl">
                 Feature Your Blogs
             </h2>
