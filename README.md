@@ -1,5 +1,6 @@
 <p align="center"><img src="https://hacktoberfest.com/_next/static/media/logo-hacktoberfest-11--footer.cc639da3.svg" alt="Jarvis Logo" width="auto" height="200"></p>
 
+
 <h1 align="center" style="border-bottom: none">
     <b>
         <a href="https://innovate-with-open-soucre.vercel.app/">Innovate with Open Source</a><br>
@@ -9,9 +10,37 @@
 
 <h1 align="center" style="border-bottom: none">
     <b>
-        <a href="https://innovate-with-open-soucre.vercel.app/">⭐️ Website ⭐️</a><br>     
+        <a href="https://innovate-with-opensource.netlify.app/">⭐️ Website ⭐️</a><br>     
 </h1>
 <img src="https://github.com/jarvis-ghrce/Innovate-with-Open-Soucre/blob/main/readme-assets/website.gif" width="1920" height="550" alt="Alt Text">
+
+
+<p align="center">
+    <a href="https://github.com/AayushPaigwar/Innovate-with-Open-Soucre/stargazers">
+        <img src="https://img.shields.io/github/stars/AayushPaigwar/Innovate-with-Open-Soucre?style=social" alt="Stars">
+    </a>
+    <a href="https://github.com/AayushPaigwar/Innovate-with-Open-Soucre/pulls">
+        <img src="https://img.shields.io/badge/Total%20PRs-91-brightgreen" alt="Total Pull Requests">
+    </a>
+    <a href="https://github.com/AayushPaigwar/Innovate-with-Open-Soucre/graphs/contributors">
+        <img src="https://img.shields.io/github/contributors/AayushPaigwar/Innovate-with-Open-Soucre" alt="Contributors">
+    </a>
+    <a href="https://github.com/AayushPaigwar/Innovate-with-Open-Soucre">
+        <img src="https://img.shields.io/github/repo-size/AayushPaigwar/Innovate-with-Open-Soucre" alt="Repo Size">
+    </a>
+</p>
+
+<p align="center">
+ <a href="https://github.com/AayushPaigwar/Innovate-with-Open-Soucre/issues">
+        <img src="https://img.shields.io/github/issues/AayushPaigwar/Innovate-with-Open-Soucre" alt="Issues">
+    </a>
+    <a href="https://github.com/AayushPaigwar/Innovate-with-Open-Soucre/pulls">
+        <img src="https://img.shields.io/github/issues-pr/AayushPaigwar/Innovate-with-Open-Soucre" alt="Pull Requests">
+    </a>
+     <a href="https://github.com/AayushPaigwar/Innovate-with-Open-Soucre/network/members">
+        <img src="https://img.shields.io/github/forks/AayushPaigwar/Innovate-with-Open-Soucre" alt="Forks">
+    </a>
+    </p>
 
 ---
 
@@ -39,7 +68,7 @@
   name: "Your Name",
   role: "Your Role (e.g., Contributor)",
   github: "https://github.com/your-github-username",
-  image: "https://avatar.iran.liara.run/public/job/operator/male" // or your image URL
+  image: "https://github.com/your-github-username.png" // or your image URL
 }
 ```
 #### And that's all ! 🚀
@@ -96,9 +125,10 @@
 ---
 
 # Contributors for **Innovate with Open Source**🧑🏻‍💻
-<a href="https://github.com/jarvis-ghrce/Innovate-with-Open-Soucre/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=jarvis-ghrce/Innovate-with-Open-Soucre" />
+<a href="https://github.com/aayushpaigwar/Innovate-with-Open-Soucre/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=aayushpaigwar/Innovate-with-Open-Soucre" />
 </a>
+
 
 ---
 

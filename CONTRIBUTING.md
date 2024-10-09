@@ -1,3 +1,24 @@
+<p align="center">
+    <a href="https://github.com/AayushPaigwar/Innovate-with-Open-Soucre/stargazers">
+        <img src="https://img.shields.io/github/stars/AayushPaigwar/Innovate-with-Open-Soucre?style=social" alt="Stars">
+    </a>
+    <a href="https://github.com/AayushPaigwar/Innovate-with-Open-Soucre/graphs/contributors">
+        <img src="https://img.shields.io/github/contributors/AayushPaigwar/Innovate-with-Open-Soucre" alt="Contributors">
+    </a>
+    <a href="https://github.com/AayushPaigwar/Innovate-with-Open-Soucre">
+        <img src="https://img.shields.io/github/repo-size/AayushPaigwar/Innovate-with-Open-Soucre" alt="Repo Size">
+    </a>
+    <a href="https://github.com/AayushPaigwar/Innovate-with-Open-Soucre/issues">
+        <img src="https://img.shields.io/github/issues/AayushPaigwar/Innovate-with-Open-Soucre" alt="Issues">
+    </a>
+    <a href="https://github.com/AayushPaigwar/Innovate-with-Open-Soucre/pulls">
+        <img src="https://img.shields.io/github/issues-pr/AayushPaigwar/Innovate-with-Open-Soucre" alt="Pull Requests">
+    </a>
+     <a href="https://github.com/AayushPaigwar/Innovate-with-Open-Soucre/network/members">
+        <img src="https://img.shields.io/github/forks/AayushPaigwar/Innovate-with-Open-Soucre" alt="Forks">
+    </a>
+</p>
+
 # 🚀 How to Contribute to Innovate-with-Open-Source
 
 Thank you for your interest in contributing! Follow the steps below to make your contribution for **Hacktoberfest**. 🎉
