@@ -70,6 +70,17 @@
   github: "https://github.com/your-github-username",
   image: "https://github.com/your-github-username.png" // or your image URL
 }
+
+// Blogs
+
+{
+title: "Blog Title",
+link: "blog_url",
+author: "John Doe",
+date: "Sep 19, 2024",
+image: "image_url",
+avater: "avater_url",
+}
 ```
 #### And that's all ! 🚀
 
