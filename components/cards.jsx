@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import React, { useState, useRef, useEffect } from "react";
 import { contributors } from "@/lib/data";
 import { Button } from "@/components/ui/button"; // Assuming you have a Button component from Shadcn
 
@@ -46,10 +46,25 @@ const FeatureCard = ({ name, role, image, github }) => (
   </div>
 );
 
+const InfiniteScrollCard = ({ name, image }) => (
+  <div className="flex-shrink-0 w-20 mx-2">
+    <img
+      src={image}
+      alt={name}
+      className="w-20 h-20 rounded-full"
+      onError={(e) => {
+        e.target.src = "https://avatar.iran.liara.run/public/24";
+      }}
+    />
+    <p className="text-xs text-center mt-2 truncate">{name}</p>
+  </div>
+);
+
 export default function Cards() {
   const [currentPage, setCurrentPage] = useState(1);
+  const [scrollPosition, setScrollPosition] = useState(0);
+  const scrollRef = useRef(null);
 
-  // Pagination logic
   const totalItems = contributors.length;
   const totalPages = Math.ceil(totalItems / ITEMS_PER_PAGE);
   const startIndex = (currentPage - 1) * ITEMS_PER_PAGE;
@@ -68,10 +83,51 @@ export default function Cards() {
     }
   };
 
+  useEffect(() => {
+    const scrollContainer = scrollRef.current;
+    if (scrollContainer) {
+      const scrollWidth = scrollContainer.scrollWidth / 2; // Divide by 2 because we duplicated the content
+      const clientWidth = scrollContainer.clientWidth;
+
+      const timer = setInterval(() => {
+        setScrollPosition((prevPos) => {
+          if (prevPos >= scrollWidth) {
+            // If we've scrolled past the first set, instantly jump back to the start of the second set
+            scrollContainer.scrollLeft = 0;
+            return 0;
+          }
+          return prevPos + 1;
+        });
+      }, 50);
+
+      return () => clearInterval(timer);
+    }
+  }, []);
+
+  useEffect(() => {
+    if (scrollRef.current) {
+      scrollRef.current.scrollLeft = scrollPosition;
+    }
+  }, [scrollPosition]);
+
   return (
     <section id="contributors" className="py-16 px-4 sm:px-6 lg:px-8 bg-gray-50">
       <div className="max-w-7xl mx-auto">
         <h2 className="text-3xl font-bold text-center mb-8">Contributors</h2>
+
+        {/* Infinite Scroll Section */}
+        <div className="mb-12 overflow-hidden">
+          <div
+            ref={scrollRef}
+            className="flex overflow-x-auto scrollbar-hide smooth-scroll"
+            style={{ scrollBehavior: 'smooth' }}
+          >
+            {[...contributors, ...contributors].map((contributor, index) => (
+              <InfiniteScrollCard key={index} name={contributor.name} image={contributor.image} />
+            ))}
+          </div>
+        </div>
+
         <p className="text-center text-lg text-gray-500 mb-8">
           Total Contributors: {totalItems}
         </p>
@@ -112,5 +168,4 @@ export default function Cards() {
       </div>
     </section>
   );
-
 }

@@ -81,21 +81,49 @@ html {
     @apply bg-background text-foreground;
   }
 }
-
+@layer utilities {
+  .scrollbar-hide {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+  .scrollbar-hide::-webkit-scrollbar {
+    display: none;
+  }
+}
+@layer utilities {
+  .scrollbar-hide {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+  .scrollbar-hide::-webkit-scrollbar {
+    display: none;
+  }
+  .smooth-scroll {
+    scroll-behavior: smooth;
+    -webkit-overflow-scrolling: touch;
+  }
+}
 
 .hide-scrollbar::-webkit-scrollbar {
   display: none;
 }
 
 .hide-scrollbar {
-  -ms-overflow-style: none;  /* Internet Explorer 10+ */
-  scrollbar-width: none;  /* Firefox */
+  -ms-overflow-style: none; /* Internet Explorer 10+ */
+  scrollbar-width: none; /* Firefox */
 }
 
 @keyframes greenBlink {
-  0%, 100% { opacity: 0; }
-  10% { opacity: 0.3; }
-  20% { opacity: 0; }
+  0%,
+  100% {
+    opacity: 0;
+  }
+  10% {
+    opacity: 0.3;
+  }
+  20% {
+    opacity: 0;
+  }
 }
 
 .grid-container {
