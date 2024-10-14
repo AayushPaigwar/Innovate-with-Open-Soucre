@@ -166,15 +166,21 @@ export default function Cards() {
 
         {/* Display the current page of contributors */}
         <div className="grid md:grid-cols-3 gap-8">
-          {currentContributors.map((contributor) => (
-            <FeatureCard
-              key={contributor.name}
-              name={contributor.name}
-              role={contributor.role}
-              image={contributor.image}
-              github={contributor.github}
-            />
-          ))}
+          {currentContributors.length === 0 ? (
+            <div className="col-span-full text-center text-gray-500">
+              No contributors found matching your search.
+            </div>
+          ) : (
+            currentContributors.map((contributor) => (
+              <FeatureCard
+                key={contributor.name}
+                name={contributor.name}
+                role={contributor.role}
+                image={contributor.image}
+                github={contributor.github}
+              />
+            ))
+          )}
         </div>
 
         {/* Pagination controls */}
