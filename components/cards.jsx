@@ -3,6 +3,7 @@
 import React, { useState, useRef, useEffect } from "react";
 import { contributors } from "@/lib/data";
 import { Button } from "@/components/ui/button"; // Assuming you have a Button component from Shadcn
+import { Search, X } from "lucide-react";
 
 const ITEMS_PER_PAGE = 9; // Display 3 cards per page
 
@@ -63,13 +64,24 @@ const InfiniteScrollCard = ({ name, image }) => (
 export default function Cards() {
   const [currentPage, setCurrentPage] = useState(1);
   const [scrollPosition, setScrollPosition] = useState(0);
+  const [searchQuery, setSearchQuery] = useState(""); // State for search input
   const scrollRef = useRef(null);
 
-  const totalItems = contributors.length;
-  const totalPages = Math.ceil(totalItems / ITEMS_PER_PAGE);
+  // Filter the contributors based on the search query
+  const filteredContributors = contributors.filter((contributor) => {
+    const lowercasedQuery = searchQuery.toLowerCase();
+    return (
+      contributor.name.toLowerCase().includes(lowercasedQuery) ||
+      contributor.role.toLowerCase().includes(lowercasedQuery) ||
+      contributor.github.toLowerCase().includes(lowercasedQuery)
+    );
+  });
+
+  const totalFilteredItems = filteredContributors.length;
+  const totalPages = Math.ceil(totalFilteredItems / ITEMS_PER_PAGE);
   const startIndex = (currentPage - 1) * ITEMS_PER_PAGE;
   const endIndex = startIndex + ITEMS_PER_PAGE;
-  const currentContributors = contributors.slice(startIndex, endIndex);
+  const currentContributors = filteredContributors.slice(startIndex, endIndex);
 
   const handleNextPage = () => {
     if (currentPage < totalPages) {
@@ -128,9 +140,29 @@ export default function Cards() {
           </div>
         </div>
 
-        <p className="text-center text-lg text-gray-500 mb-8">
-          Total Contributors: {totalItems}
-        </p>
+        {/* Contributors Total & Search Bar Section */}
+        <div className="flex flex-col sm:flex-row justify-between items-center mb-8">
+          <p className="text-lg text-gray-500 mb-4 sm:mb-0">
+            Total Contributors: {totalFilteredItems}
+          </p>
+          <div className="relative w-full sm:w-auto">
+            <input
+              type="text"
+              value={searchQuery}
+              onChange={(e) => setSearchQuery(e.target.value)}
+              placeholder="Search by user name or role.."
+              className="pl-10 pr-3 py-2 border border-gray-300 rounded-lg w-full sm:w-80"
+            />
+            <Search className="absolute left-3 top-1/2 transform -translate-y-1/2 text-gray-500" size={20} />
+            {searchQuery && (
+              <X
+                className="absolute right-3 top-1/2 transform -translate-y-1/2 text-gray-500 cursor-pointer text-xs"
+                size={18}
+                onClick={() => setSearchQuery("")}
+              />
+            )}
+          </div>
+        </div>
 
         {/* Display the current page of contributors */}
         <div className="grid md:grid-cols-3 gap-8">
