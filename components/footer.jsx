@@ -7,7 +7,11 @@ const FooterColumn = ({ title, links }) => (
         <h3 className="text-sm font-semibold text-gray-400 uppercase">{title}</h3>
         <ul className="space-y-1">
             {links.map((link, index) => (
-                <li key={index}>
+                <li key={index} className="flex items-center space-x-2">
+                    <Link href={link.href} className="text-sm text-gray-300 hover:text-white transition-colors">
+                        <span className="sr-only">{link.label}</span>
+                        {link.icon}
+                    </Link>
                     <Link href={link.href} className="text-sm text-gray-300 hover:text-white transition-colors">
                         {link.label}
                     </Link>
@@ -20,9 +24,21 @@ const FooterColumn = ({ title, links }) => (
 export default function Footer() {
     const footerLinks = {
         contact: [
-            { label: "Aayush Paigwar", href: "https://github.com/AayushPaigwar" },
-            { label: "Pawan Bhayde", href: "https://github.com/pawanbhayde" },
-            { label: "Atharva Werulkar", href: "https://github.com/Atharva-werulkar" },
+            {
+                label: "Aayush Paigwar",
+                href: "https://www.linkedin.com/in/aayush-paigwar",
+                icon: <Linkedin className="h-4 w-4 text-gray-300" />
+            },
+            {
+                label: "Pawan Bhayde",
+                href: "https://www.linkedin.com/in/pawanbhayde",
+                icon: <Linkedin className="h-4 w-4 text-gray-300" />
+            },
+            {
+                label: "Atharva Werulkar",
+                href: "https://www.linkedin.com/in/atharva-werulkar",
+                icon: <Linkedin className="h-4 w-4 text-gray-300" />
+            },
         ],
     }
 
