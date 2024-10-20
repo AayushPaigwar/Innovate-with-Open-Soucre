@@ -57,7 +57,7 @@
 # Steps to Contribute
 ## Make a Simple Contribution :
 
-- Open the `lib/data.js` file
+- Open the `lib/data.js` file. | 📌for Adding Blogs open `lib/blogs.js`
 - You will see a snippet of code below.
 - Just add that code with YOUR NAME and YOUR GITHUB PROFILE link to the array to make a simple contribution.
 
